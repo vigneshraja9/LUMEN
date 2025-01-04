@@ -1,0 +1,50 @@
+/* Styles for the hero section */
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('telecommunications-industry-analysis.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  font-family: Helvetica-Oblique, sans-serif;
+}
+
+/* Content styling */
+.content {
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background */
+  border-radius: 10px;
+}
+
+/* Heading style */
+.content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+/* Paragraph style */
+.content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Button styling */
+.login-button {
+  font-size: 1em;
+  padding: 10px 20px;
+  color: black;
+  background-color: #faf6f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
